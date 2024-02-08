@@ -38,6 +38,5 @@ jobs:
       - run: echo "hello" > hello.txt
       - uses: actions/upload-artifact@v4
          with:
-         name: hello-artifact
-         path: /hello.txt
-         retention-days: 5
+           name: hello-artifact
+           path: /hello.txt
