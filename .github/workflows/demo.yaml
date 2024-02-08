@@ -37,6 +37,6 @@ jobs:
     steps:
       - run: echo "hello" > hello.txt
       - uses: actions/upload-artifact@v4
-         with:
+        with:
            name: hello-artifact
            path: /hello.txt
